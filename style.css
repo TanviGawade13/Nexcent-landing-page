@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Inter';
+}
+
+nav{
+    height: 12vh ;
+    width: 100vw;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 7.5vw;
+    padding-left: 7.5vw;
+}
+
+.flex-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 650.48px;
+}
+
+.logo{
+    width: 107.54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em ;
+}
+
+.header-menu{
+    width: 507px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-box button{
+    width: 173px;
+    height: 46.50px;
+    background-color: #4caf4f;
+    border: none;
+    border-radius: 2.78px;
+    color: #fff;
+    font-size: 1em ;
+    padding: 9.74px 22.27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.flex-box button i{
+    font-size: 1em;
+    text-align: center;
+}
+
+/* Styling the Hero section */
+
+.hero{
+    width: 100vw;
+    height: 80vh;
+    padding: 66px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 190px;
+}
+
+.hero .header-text{
+    width: 40vw;
+    height: 40vh;
+}
+
+.hero .header-text h1{
+    line-height: 80px;
+    font-size: 3.8em;
+    color: #4d4d4d;
+    padding-bottom: 15px;
+}
+
+
+.hero .header-text h1 span{
+    color: #4caf4f;
+}
+
+.hero .header-text p{
+    padding-bottom: 25px;
+    color: #4d4d4d;
+}
+
+.hero .header-text button{
+    width: 120px;
+    height: 50px;
+    background-color: #4caf4f;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size:1.1em ;
+}
+
+.hero img{
+    width: 26vw;
+
+}
+
