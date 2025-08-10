@@ -12,71 +12,68 @@ html,body{
     font-family: 'Inter';
 }
 
-nav{
-    height: 12vh ;
-    width: 100vw;
+/* Styling the container */
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+/* Styling the nav bar */
+
+.nav{
+    padding: 0 10vw ;
+    width: 100%;
+    height: 12%;
     background-color: #fff;
     display: flex;
     justify-content: space-between;
-    padding-right: 7.5vw;
-    padding-left: 7.5vw;
-}
-
-.flex-box{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 650.48px;
-}
-
-.logo{
-    width: 107.54px;
-    display: flex;
-    justify-content: center;
     align-items: center;
 }
 
-.logo h1{
+.nav .logo{
+    display: flex;
+    gap: 3px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 2em ;
 }
 
-.header-menu{
-    width: 507px;
+ .nav .nav-part1 .header-menu{
+    width: 38vw;
     display: flex;
-    justify-content: space-around;
-}
+    justify-content: space-between;
+    align-items: center;
+ }
 
-.flex-box button{
-    width: 173px;
-    height: 46.50px;
-    background-color: #4caf4f;
+.nav .nav-part1 .header-menu .register-now{
+    width: 8.7vw;
+    height: 2.5vw;
     border: none;
-    border-radius: 2.78px;
+    background-color: #4caf4f;
+    border-radius: 4px;
     color: #fff;
-    font-size: 1em ;
-    padding: 9.74px 22.27px;
+    font-size: 1em;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2px;
+    padding: 8px;
 }
 
-.flex-box button i{
-    font-size: 1em;
+.nav-part1 button i{
+    font-size: 0.8em;
     text-align: center;
 }
 
-/* Styling the Hero section */
+/* Styling the hero section */
 
 .hero{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 0 10vw ;
+    gap: 10vw;
     width: 100vw;
     height: 80vh;
-    padding: 66px auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 190px;
+    background-color: #f5f7fa;
 }
 
 .hero .header-text{
@@ -88,7 +85,7 @@ nav{
     line-height: 80px;
     font-size: 3.8em;
     color: #4d4d4d;
-    padding-bottom: 15px;
+    padding-bottom: 3vmin;
 }
 
 
@@ -97,22 +94,47 @@ nav{
 }
 
 .hero .header-text p{
-    padding-bottom: 25px;
+    padding-bottom: 3vmin;
     color: #4d4d4d;
 }
 
 .hero .header-text button{
-    width: 120px;
-    height: 50px;
+    width: 9vw;
+    height: 6vh;
     background-color: #4caf4f;
     color: #fff;
     border: none;
-    border-radius: 3px;
+    border-radius: 4px;
     font-size:1.1em ;
 }
 
 .hero img{
     width: 26vw;
-
 }
 
+/* Styling the Our clients section */
+
+.clients{
+    height: 35vh;
+    width: 100%;
+    padding:6vh 9vw;
+    text-align: center;
+}
+
+.clients h3{
+    font-size: 2.8em;
+    padding-bottom: 3vmin;
+    color: #4d4d4d;
+    font-weight: 700;
+}
+
+.clients p{
+    font-size: 1em;
+    padding-bottom: 4vmin;
+    color: #4d4d4d;
+}
+
+.clients .client-imgs{
+    display: flex;
+    justify-content: space-around;
+}
