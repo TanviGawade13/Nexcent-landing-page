@@ -71,7 +71,7 @@ html,body{
     align-content: center;
     padding: 0 10vw ;
     gap: 10vw;
-    width: 100vw;
+    width: 100%;
     height: 80vh;
     background-color: #f5f7fa;
 }
@@ -95,7 +95,7 @@ html,body{
 
 .hero .header-text p{
     padding-bottom: 3vmin;
-    color: #4d4d4d;
+    color: #717171;
 }
 
 .hero .header-text button{
@@ -131,10 +131,86 @@ html,body{
 .clients p{
     font-size: 1em;
     padding-bottom: 4vmin;
-    color: #4d4d4d;
+    color: #717171;
 }
 
 .clients .client-imgs{
     display: flex;
     justify-content: space-around;
+}
+
+/* Styling the community */
+
+.community{
+    width: 100%;
+    height: 65vh;
+}
+
+.community .community-header{
+    width: 35vw;
+    height: 24vh;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.community .community-header>h2{
+    color: #4d4d4d;
+    font-size: 2.3em;
+    padding-bottom: 2vmin;
+}
+
+.community .community-header>p{
+    color: #717171;
+    font-size: 1em;
+    margin-bottom: 10vh;
+}
+
+.community .community-flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10vw;
+}
+
+.community .community-flex .box1{
+    background-color: rgb(255, 255, 255);
+    height: 34vh;
+    width: 35vh;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #d8d7d7;
+}
+
+.community .community-flex .box1>h2{
+    color: #4d4d4d;
+    font-size: 1.7em;
+    padding: 10px 0;
+}
+
+.community .community-flex .box1>p{
+    color: #717171;
+    font-size: 0.9em;
+}
+
+.community .community-flex .box{
+    background-color: rgb(255, 255, 255);
+    height: 36vh;
+    width: 36vh;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #d8d7d7;
+}
+
+.community .community-flex .box>h2{
+    color: #4d4d4d;
+    font-size: 1.7em;
+    padding: 10px 0;
+}
+
+.community .community-flex .box>p{
+    color: #717171;
+    font-size: 0.9em;
 }
