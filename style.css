@@ -214,3 +214,46 @@ html,body{
     color: #717171;
     font-size: 0.9em;
 }
+
+/* Styling the pixelgrade section */
+
+.pixelgrade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9vw;
+    height: 60%;
+    padding: 0 10vw;
+}
+
+.pixelgrade>img{
+    width: 70vw;
+    height: auto;
+}
+
+.pixelgrade .text-side{
+    padding-right: 4vw;
+}
+
+.pixelgrade .text-side>h3{
+    font-size: 2.2em;
+    color: #4d4d4d;
+    padding-bottom: 3vmin;
+    padding-right: 7vmin;
+}
+
+.pixelgrade .text-side>p{
+    color: #717171;
+    font-size: 1em;
+    padding-bottom: 4vmin;
+}
+
+.pixelgrade .text-side>button{
+    width: 10.3vw;
+    height: 6.5vh;
+    background-color: #4caf4f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size:1.15em ;
+}
