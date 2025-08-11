@@ -223,7 +223,7 @@ html,body{
     align-items: center;
     gap: 9vw;
     height: 60%;
-    padding: 0 10vw;
+    padding: 7vw 10vw;
 }
 
 .pixelgrade>img{
@@ -246,6 +246,7 @@ html,body{
     color: #717171;
     font-size: 1em;
     padding-bottom: 4vmin;
+    /* line-height: 20px; */
 }
 
 .pixelgrade .text-side>button{
