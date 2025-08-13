@@ -365,15 +365,15 @@ html,body{
 .customers{
     display: flex;
     justify-content: center;
-    padding: 25vh 10vw;
+    padding: 0vh 10vw;
     background-color: #f5f7fa;
-    height: 52vh;
+    height: 55vh;
     gap: 4vw;
     align-items: center;
 }
 
 .customers .left-side img{
-    height: 19vw;
+    height: 20vw;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -382,8 +382,8 @@ html,body{
     height: 40vh;
     width: 100vw;
     color: #4d4d4d;
-    padding-right: 6vw;
-    flex: 1;
+    padding-right: 5vw;
+    /* flex: 1; */
 }
 
 .customers .right-side .top{
@@ -396,13 +396,13 @@ html,body{
 .customers .right-side>h3{
     color: #4caf4f;
     font-size: 1.5em;
-    padding: 1.8vh 0 1vh 0;
+    padding: 1vh 0 1vh 0;
 }
 
 .customers .right-side .bottom{
     font-size: 1em;
     color: #717171;
-    padding: 1vh 0 1.5vh;
+    padding: 0.8vh 0 3.5vh 0;
 }
 
 .customers .right-side .customer-logos{
@@ -421,4 +421,109 @@ html,body{
 
 .customers .right-side .customer-logos>h3>i{
     font-weight: 900;
+}
+
+/* Styling the caring section  */
+
+.caring{
+    height: 87vh;
+    padding: 9vh 10vw;
+    text-align: center;
+}
+
+.caring h2{
+    font-size: 2.2em;
+    color: #4d4d4d;
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.caring p{
+    width: 40vw;
+    margin: 0 auto;
+    font-size: 1em;
+    color: #717171;
+    padding: 2vh 0 4vh 0;
+    line-height: 24.5px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    width: 25vw;
+    height: 52vh;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.cards img{
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.card .card-txt{
+    background-color: #f5f7fa;
+    height: 23vh;
+    width: 78%;
+    border-radius: 10px;
+    position: absolute;
+    top: 55%;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.card .card-txt>h3{
+    color: #717171;
+    font-size: 1.3em;
+    font-weight: 650;
+    padding-bottom: 3.5vh;
+}
+
+.card .card-txt>h4{
+    color: #4caf4f;
+    font-size: 1.2em;
+}
+
+.card .card-txt>h4>i{
+    font-weight: 700;
+}
+
+/* Styling the Demo section */
+
+.big-heading{
+    background-color: #f5f7fa;
+    height: 40vh;
+    text-align: center;
+    padding: 6vh 10vw;
+}
+
+.big-heading h1{
+    font-size: 3em;
+    width: 40vw;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 5vh;
+}
+
+.big-heading button{
+    width: 10.3vw;
+    height: 6.5vh;
+    background-color: #4caf4f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size:1.15em ;
+}
+
+.big-heading button>i{
+    font-weight: 700;
 }
