@@ -359,3 +359,66 @@ html,body{
     border-radius: 4px;
     font-size:1.15em ;
 }
+
+/* Styling the customers section  */
+
+.customers{
+    display: flex;
+    justify-content: center;
+    padding: 25vh 10vw;
+    background-color: #f5f7fa;
+    height: 48vh;
+    gap: 1.8vw;
+    align-items: center;
+}
+
+.customers .left-side img{
+    height: 19vw;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.customers .right-side{
+    height: 40vh;
+    width: 100vw;
+    color: #4d4d4d;
+    padding-right: 6vw;
+    flex: 1;
+}
+
+.customers .right-side .top{
+    font-size: 1.1em;
+    line-height: 1.5;
+    color: #4d4d4d;
+
+}
+
+.customers .right-side>h3{
+    color: #4caf4f;
+    font-size: 1.5em;
+    padding: 1.8vh 0 1vh 0;
+}
+
+.customers .right-side .bottom{
+    font-size: 1em;
+    color: #717171;
+    padding: 1vh 0 1.5vh;
+}
+
+.customers .right-side .customer-logos{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+    width: 45vw;
+    flex-wrap: wrap;
+}
+
+.customers .right-side .customer-logos>h3{
+    color: #4caf4f;
+    font-weight: bold;
+}
+
+.customers .right-side .customer-logos>h3>i{
+    font-weight: 900;
+}
