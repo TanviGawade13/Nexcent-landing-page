@@ -507,6 +507,7 @@ html,body{
 }
 
 .big-heading h1{
+    color: #263238;
     font-size: 3em;
     width: 40vw;
     margin: 0 auto;
