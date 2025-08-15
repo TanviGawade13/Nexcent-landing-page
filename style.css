@@ -528,3 +528,60 @@ html,body{
 .big-heading button>i{
     font-weight: 700;
 }
+
+/* Styling footer section  */
+
+.footer{
+    background-color: #263238;
+    color: #fff;
+    padding: 8.8vh 10vw;
+    height: 45vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .brand-info{
+    width: 23vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer .brand-info .logo{
+    display: flex;
+    align-items: center;
+    height: 7vh;
+    gap: 3px;
+    font-size: 1.2em;
+}
+
+.footer .brand-info>p{
+    font-size: 1.1rem;
+    padding: 20px 1px;
+    line-height: 35px;
+}
+
+.footer .brand-info .socials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25vmin;
+}
+
+.footer .brand-info .socials>a{
+    border: 2px solid #3b464c;
+    background-color: #3b464c;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+
+.footer .brand-info .socials>a>i{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 18px;
+}
