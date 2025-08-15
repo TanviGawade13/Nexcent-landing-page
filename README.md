@@ -44,11 +44,6 @@ Nexcent/
 
 ---
 
-## 📷 Screenshot
-*(Add a screenshot of your website here)*
-
----
-
 ## 🚀 How to Run
 1. Clone this repository:
 ```bash
