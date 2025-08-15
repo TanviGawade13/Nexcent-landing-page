@@ -51,7 +51,7 @@ Nexcent/
 
 ## 🚀 How to Run
 1. Clone this repository:
-   ```bash
+```bash
    git clone https://github.com/yourusername/nexcent-website.git
 ````
 
